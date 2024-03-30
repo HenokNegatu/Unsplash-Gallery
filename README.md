@@ -1,4 +1,4 @@
-# Svelte Unsplash Gallery
+# Unsplash Gallery
 
 This is a Svelte project that fetches and displays images from the Unsplash API. Users can use this project as a template to create their own Unsplash gallery by providing their own API key.
 
