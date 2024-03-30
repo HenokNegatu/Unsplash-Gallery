@@ -17,7 +17,6 @@ git clone https://github.com/HenokNegatu/Unsplash-Gallery.git
 Navigate to the project directory and install the necessary dependencies:
 
 ```bash
-Copy code
 cd svelte-unsplash-gallery
 npm install
 ```
@@ -28,7 +27,7 @@ You'll need to sign up for an account on Unsplash and create an application to g
 Create a .env file in the root of your project and add your Unsplash API key:
 
 `
-VITE_UNSPLASH_API_KEY=your_api_key_here
+VITE_ACCESS_KEY=your_api_key_here
 `
 
 5. Run the Development Server
@@ -38,7 +37,7 @@ Start the development server:
 npm run dev
 ```
 
-Open your browser and navigate to http://localhost:5000 to view the app.
+Open your browser and navigate to http://localhost:5173 to view the app.
 
 #### Usage
 Once the development server is running, you can use the Unsplash Gallery to view images from Unsplash. You can customize the gallery and its functionality according to your needs.
@@ -50,10 +49,6 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, fee
 #### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-```vbnet
-
-Replace `"your-username"` with your actual GitHub username in the clone URL. Make sure to provide clear instructions for users to obtain their own Unsplash API key and set up their environment variables. Feel free to customize this `README.md` according to your project's specific details and requirements.
-```
 
 
 
